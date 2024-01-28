@@ -4,24 +4,24 @@ using namespace std;
 int main()
 {
 	//simple C++ program that prints "Hello World!!"
-	// cout << "Hello World!!";
+	 cout << "Hello World!!";
 
-	/* initializes an array of strings named cars with four elements ("Volvo", "BMW", "Ford", "Mazda"). It then updates the first element to "Opel" and prints all the elements in the array using a loop.
+	/* initializes an array of strings named cars with four elements ("Volvo", "BMW", "Ford", "Mazda"). It then updates the first element to "Opel" and prints all the elements in the array using a loop.*/
 	string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
 
 	 cars[0] = "Opel";
 
 	for (int i = 0; i < 4; i++)
 		cout << cars[i] << " ";
-	return 0;*/
+	return 0;
 	
 
-	/* initializes an array of integers named myNumbers and uses a range-based for loop to iterate through the elements
+	/* initializes an array of integers named myNumbers and uses a range-based for loop to iterate through the elements*/
 	int myNumbers[5] = {10, 20, 30, 40, 50};
 	for (int i : myNumbers) {
-		cout << i << "\n";*/
+		cout << i << "\n";
 
-	/* initializes an array of strings named cars and updates the second and third elements to "Volvo" and "BMW," respectively
+	/* initializes an array of strings named cars and updates the second and third elements to "Volvo" and "BMW," respectively*/
 	string cars[] = {"Volvo", "BMW", "Ford", "Mazda"};
 
 	cars[1] = "Volvo";
@@ -29,14 +29,14 @@ int main()
 
 		for (int i = 0; i < 4; i++)
 			cout << cars[i] << " ";
-	return 0;*/
+	return 0;
 
-	/*  initializes an array of integers named myNum and prints the size of the array using the sizeof operator.
+	/*  initializes an array of integers named myNum and prints the size of the array using the sizeof operator.*/
 	int myNum[5] = {10,20,30,40};
 	cout << "size" << sizeof(myNum);
-	return 0;*/
+	return 0;
 
-	/*  initializes a 2D array of strings named letters and uses nested loops to iterate through and print each element
+	/*  initializes a 2D array of strings named letters and uses nested loops to iterate through and print each element*/
 	string letters[2][4] = {
 		{"A","B","C","D"},
 		{"E","F","G","H"}
@@ -46,8 +46,8 @@ int main()
 		for (int j = 0; j < 4; j++) {
 			cout << letters[i][j] << "\t";
 		}
-	}*/
-	/* initializes a 3D array of strings named letters and uses nested loops to iterate through
+	}
+	/* initializes a 3D array of strings named letters and uses nested loops to iterate through */
 	string letters[2][2][2] = {
 		{
 			{"A","B"},
@@ -64,8 +64,9 @@ int main()
 				cout << letters[i][j][k] << "\t";
 			}
 		}
-	}*/
+	}
 
+	// GAME	
 	// We put "1" to indicate there is a ship.
 	bool ships[4][4] = {
 	  { 0, 1, 1, 0 },
