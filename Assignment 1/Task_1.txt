@@ -1,7 +1,7 @@
-Understanding Bubble SortManually sort the array ` [9, 3, 5, 2, 6, 1] ` using the bubble sort technique. writedown each step of the process.
+Understanding Bubble SortManually sort the array ` [9, 3, 5, 2, 6, 1] ` using the bubble sort technique. writedown each step of the process..
 
 First Pass:
-Start with the numbers 9, 3, 5, 2, 6, and 1..
+Start with the numbers 9, 3, 5, 2, 6, and 1.
 Compare 9 and 3. Oops, they're in the wrong order! Swap them. Now it's 3, 9, 5, 2, 6, 1.
 Move to the next pair, 9 and 5. No need to swap; they're good.
 Check 5 and 2. Swap them. The list becomes 3, 5, 2, 9, 6, 1.
