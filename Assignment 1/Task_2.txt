@@ -1,0 +1,29 @@
+Trace the Bubble SortProvided the unsorted array ` [7, 4, 2, 9, 1] ` and trace the bubble sort algorithmstep by step, showing the changes in the array after each pass.
+
+Initial array: [9, 3, 5, 2, 6, 1]
+
+Pass 1:
+
+Compared 9 and 3. Swapped them, as 3 is smaller. Result: [3, 9, 5, 2, 6, 1]
+Compared 9 and 5. Swapped them, as 5 is smaller. Result: [3, 5, 9, 2, 6, 1]
+Compared 9 and 2. Swapped them, as 2 is smaller. Result: [3, 5, 2, 9, 6, 1]
+Compared 9 and 6. Swapped them, as 6 is smaller. Result: [3, 5, 2, 6, 9, 1]
+Compared 9 and 1. Swapped them, as 1 is smaller. Result: [3, 5, 2, 6, 1, 9]
+Pass 2:
+
+Compared 3 and 5. No swap needed. Result: [3, 5, 2, 6, 1, 9]
+Compared 5 and 2. Swapped them, as 2 is smaller. Result: [3, 2, 5, 6, 1, 9]
+Compared 5 and 6. No swap needed. Result: [3, 2, 5, 6, 1, 9]
+Compared 6 and 1. Swapped them, as 1 is smaller. Result: [3, 2, 5, 1, 6, 9]
+Pass 3:
+
+Compared 3 and 2. Swapped them, as 2 is smaller. Result: [2, 3, 5, 1, 6, 9]
+Compared 3 and 5. No swap needed. Result: [2, 3, 5, 1, 6, 9]
+Compared 5 and 1. Swapped them, as 1 is smaller. Result: [2, 3, 1, 5, 6, 9]
+Pass 4:
+
+Compared 2 and 3. No swap needed. Result: [2, 3, 1, 5, 6, 9]
+Compared 3 and 1. Swapped them, as 1 is smaller. Result: [2, 1, 3, 5, 6, 9]
+Pass 5:
+
+Compared 2 and 1. Swapped them, as 1 is smaller. Result: [1, 2, 3, 5, 6, 9]
