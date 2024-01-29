@@ -6,6 +6,7 @@
 using namespace std;
 
 // Print the queue
+//claswork
 void showq(queue<int> gq)
 {
 	queue<int> g = gq;
