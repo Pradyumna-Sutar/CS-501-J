@@ -1,4 +1,4 @@
-Understanding Bubble SortManually sort the array ` [9, 3, 5, 2, 6, 1] ` using the bubble sort technique. writedown each step of the process.
+Understanding Bubble SortManually sort the array ` [9, 3, 5, 2, 6, 1] ` using the bubble sort technique. writedown each step of the process..
 
 First Pass:
 Start with the numbers 9, 3, 5, 2, 6, and 1.
