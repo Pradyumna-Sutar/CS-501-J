@@ -1,6 +1,6 @@
 Trace the Bubble SortProvided the unsorted array ` [7, 4, 2, 9, 1] ` and trace the bubble sort algorithmstep by step, showing the changes in the array after each pass.
 
-Initial array: [9, 3, 5, 2, 6, 1]
+Initial array: [9, 3, 5, 2, 6, 1].
 
 Pass 1:
 
