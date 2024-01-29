@@ -1,12 +1,18 @@
 #include <iostream>
 using namespace std;
-int main() {
 
-    int a[] = { 8,7,6,5,2,4,1,3,9 };
+int main() {
+    // Initialize an array with integer values
+    int a[] = { 8, 7, 6, 5, 2, 4, 1, 3, 9 };
+
+    // Calculate the length of the array
     int getArrayLength = sizeof(a) / sizeof(int);
-    for (int i = 0; i < getArrayLength; i++)//up unitl the length
-    {
-        for (int j = 0; j < getArrayLength - 1; j++) {//up until last but one //-i for decreasing number of passes
+
+    // Bubble sort algorithm to sort the array in descending order
+    for (int i = 0; i < getArrayLength; i++) {
+        // Iterate through the array up to the last but one element
+        for (int j = 0; j < getArrayLength - 1; j++) {
+            // Compare adjacent elements and swap if necessary to sort in descending order
             if (a[j] < a[j + 1]) {
                 int temp = a[j];
                 a[j] = a[j + 1];
@@ -14,10 +20,12 @@ int main() {
             }
         }
     }
-    //printing
+
+    // Print the sorted array
+    cout << "Sorted Array (Descending Order): ";
     for (int i = 0; i < getArrayLength; i++) {
-        cout << a[i];
+        cout << a[i] << " ";
     }
 
+    return 0; // Indicating successful completion of the program
 }
-

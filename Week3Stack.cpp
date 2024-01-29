@@ -1,20 +1,28 @@
 #include <iostream> 
 #include <stack>
 using namespace std;
-int main() {
-	stack<int> stack;
-	stack.push(21);// The values pushed in the stack should be of the same data which is written during declaration of stack
-	stack.push(22);
-	stack.push(24);
-	stack.push(25);
-	int num = 0;
-	stack.push(num);
-	stack.pop();
-	stack.pop();
-	stack.pop();
 
-	while (!stack.empty()) {
-		cout << stack.top() << " ";
-		stack.pop();
-	}
+int main() {
+    // Creating an integer stack named 'stack'
+    stack<int> stack;
+
+    // Pushing values into the stack
+    stack.push(21); // Pushing 21 into the stack
+    stack.push(22); // Pushing 22 into the stack
+    stack.push(24); // Pushing 24 into the stack
+    stack.push(25); // Pushing 25 into the stack
+
+    int num = 0;
+    stack.push(num); // Pushing the value of 'num' (which is 0) into the stack
+    stack.pop();      // Popping the top element from the stack (removing 0)
+    stack.pop();      // Popping the top element from the stack (removing 25)
+    stack.pop();      // Popping the top element from the stack (removing 24)
+
+    // Printing the remaining elements in the stack
+    while (!stack.empty()) {
+        cout << stack.top() << " "; // Outputting the top element of the stack
+        stack.pop();                 // Popping the top element from the stack
+    }
+
+    return 0; // Indicating successful completion of the program
 }
